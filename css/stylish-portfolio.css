@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'mplus-1c-light';
-    src: url('../fonts/mplus-1c-light.woff2');
+    src: url('/fonts/mplus-1c-light.woff2');
 }
 
 html,
@@ -18,7 +18,7 @@ body {
 }
 
 body {
-    font-family: "mplus-1c-light", "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "mplus-1c-light", "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 body {
