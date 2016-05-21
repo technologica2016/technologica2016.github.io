@@ -8,7 +8,8 @@
 
 @font-face {
     font-family: 'mplus-1c-light';
-    src: url('/fonts/mplus-1c-light.woff2');
+    src: url('/fonts/mplus-1c-light.woff') format('woff');
+         url('/fonts/mplus-1c-light.woff2') format('woff2'),
 }
 
 html,
@@ -18,16 +19,32 @@ body {
 }
 
 body {
-    font-family: "mplus-1c-light", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'mplus-1c-light', "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 body {
-    background: url(../img/start1.001_rev.png) no-repeat center center fixed;
+    background: url(../img/start1.001_rev.png) no-repeat top center fixed;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     background-size: contain;
     -o-background-size: contain;
     background-color: #5bf0dc;
+}
+
+h1 {
+    font-family: 'mplus-1c-light';
+}
+
+@media(max-width:768px) {
+  body {
+      background: url(../img/start1.001_sp.png) no-repeat top center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+      background-color: #5bf0dc;
+}
+
 }
 
 .text-vertical-center {
