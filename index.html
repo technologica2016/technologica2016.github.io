@@ -30,143 +30,140 @@
 </head>
 
 <body>
+    <div class="wrap">
 
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
-            </li>
-            <li>
-                <a href="#services" onclick = $("#menu-close").click(); >Activities</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
-            </li>
-        </ul>
-    </nav>
+      <!-- Navigation -->
+      <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+      <nav id="sidebar-wrapper">
+          <ul class="sidebar-nav">
+              <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+              <li>
+                  <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+              </li>
+              <li>
+                  <a href="#services" onclick = $("#menu-close").click(); >Activities</a>
+              </li>
+              <li>
+                  <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
+              </li>
+          </ul>
+      </nav>
 
-    <!-- Header -->
-    <header id="top" class="header">
-      <!--
-      <div class="header-image-wrapper">
-        <img class="header-image" src="img/start1.001_rev.png">
-      </div>
-      -->
-      <div id="about" class="about">
-        <div class="text-vertical-center">
-            <h1>technologica</h1>
-            <br>
-            <a href="#activities" class="btn btn-dark btn-lg">Find Out More</a>
+      <!-- Header -->
+      <header id="top" class="header">
+        <div id="about" class="about">
+          <div class="text-vertical-center">
+              <h1>technologica</h1>
+              <br>
+              <a href="#activities" class="btn btn-dark btn-lg">Find Out More</a>
+          </div>
         </div>
-      </div>
-    </header>
-    <!-- Activities -->
-    <!-- icon http://fontawesome.io/examples/ -->
-    <section id="activities" class="activities bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Activities</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Competition</strong>
-                                </h4>
-                                <p>NHK学生ロボコン, キャチロボ，関西合同ロボコン</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>アプリ開発</strong>
-                                </h4>
-                                <p>ロボット製作ガイド</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
+      </header>
+      <!-- Activities -->
+      <!-- icon http://fontawesome.io/examples/ -->
+      <section id="activities" class="activities bg-primary">
+          <div class="container">
+              <div class="row text-center">
+                  <div class="col-lg-10 col-lg-offset-1">
+                      <h2>Our Activities</h2>
+                      <hr class="small">
+                      <div class="row">
+                          <div class="col-md-3 col-sm-6">
+                              <div class="service-item">
+                                  <span class="fa-stack fa-4x">
+                                  <i class="fa fa-circle fa-stack-2x"></i>
+                                  <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                              </span>
+                                  <h4>
+                                      <strong>Competition</strong>
+                                  </h4>
+                                  <p>NHK学生ロボコン, キャチロボ，関西合同ロボコン</p>
+                                  <a href="#" class="btn btn-light">Learn More</a>
+                              </div>
+                          </div>
+                          
+                          <div class="col-md-3 col-sm-6">
+                              <div class="service-item">
+                                  <span class="fa-stack fa-4x">
+                                  <i class="fa fa-circle fa-stack-2x"></i>
+                                  <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                              </span>
+                                  <h4>
+                                      <strong>アプリ開発</strong>
+                                  </h4>
+                                  <p>ロボット製作ガイド</p>
+                                  <a href="#" class="btn btn-light">Learn More</a>
+                              </div>
+                          </div>
+                          
+                      </div>
+                      <!-- /.row (nested) -->
+                  </div>
+                  <!-- /.col-lg-10 -->
+              </div>
+              <!-- /.row -->
+          </div>
+          <!-- /.container -->
+      </section>
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/poster_spring.png">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/app_start.png">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
+      <!-- Portfolio -->
+      <section id="portfolio" class="portfolio bg-light">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-10 col-lg-offset-1 text-center">
+                      <h2>Our Work</h2>
+                      <hr class="small">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="portfolio-item">
+                                  <a href="#">
+                                      <img class="img-portfolio img-responsive" src="img/poster_spring.png">
+                                  </a>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="portfolio-item">
+                                  <a href="#">
+                                      <img class="img-portfolio img-responsive" src="img/app_start.png">
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- /.row (nested) -->
+                      <a href="#" class="btn btn-dark">View More Items</a>
+                  </div>
+                  <!-- /.col-lg-10 -->
+              </div>
+              <!-- /.row -->
+          </div>
+          <!-- /.container -->
+      </section>
 
-    <!-- Footer -->
-    <footer class="bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>technologica</strong>
-                    </h4>
-                    <p>同志社大学ローム記念館プロジェクト</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="technologica2016@gmail.com">technologica2016@gmail.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; technologica 2016</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+      <!-- Footer -->
+      <footer class="bg-primary">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-10 col-lg-offset-1 text-center">
+                      <h4><strong>technologica</strong>
+                      </h4>
+                      <p>同志社大学ローム記念館プロジェクト</p>
+                      <ul class="list-unstyled">
+                          <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="technologica2016@gmail.com">technologica2016@gmail.com</a>
+                          </li>
+                      </ul>
+                      <br>
+                      <ul class="list-inline">
+                          <li>
+                              <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                          </li>
+                      </ul>
+                      <hr class="small">
+                      <p class="text-muted">Copyright &copy; technologica 2016</p>
+                  </div>
+              </div>
+          </div>
+      </footer>
+    </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
